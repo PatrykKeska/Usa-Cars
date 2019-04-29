@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$padding-a : .5em;
+$color-a : greenyellow;
+
+$desktop : 1024px;
+$desktopFullHd:1480px;
+
+@mixin desktop {
+    @media(min-width:#{$desktop}) {
+        @content
+    }
+}
+
+;
+
+@mixin desktopPlus {
+    @media(min-width:#{$desktopFullHd}) {
+        @content
+    }
+}
+
+
+$margins: (section-margin-top:5vh,
+h3-margin : 5vh,
+btn-margin : 2vh,
+ul-center : auto, );
+
+
+@function getMargin($margin-type) {
+    @return map-get($margins, $margin-type)
+}
+
+;
+
+$fonts:(standard: arial,
+lobster :"Lobster,cursive",
+fresca: "Fresca",
+);
+
+@function getFont($font-type) {
+    @return map-get($fonts, $font-type)
+}
+
+.offers-section {
+    margin-top: getMargin(section-margin-top);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    @include desktop {
+        margin: 0 auto;
+        display: grid;
+        max-width: 90vw;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 20vh 10vh 70vh;
+    }
+
+
+
+    h3.offers-h3 {
+        margin-bottom: getMargin(h3-margin);
+        font-family: getFont(fresca), Arial, Helvetica, sans-serif;
+
+        @include desktop {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            justify-self: center;
+        }
+    }
+
+    .offers-btn1,
+    .offers-btn2,
+    .offers-btn3,
+    .offers-btn4 {
+        font-size: 1em;
+        color: black;
+        background-color: rgba(0, 94, 255, 0.612);
+        padding: .5em .7em;
+        margin: 1em;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 1px black;
+        display: block;
+        text-transform: uppercase;
+        text-align: center;
+        width: 60%;
+        border: none;
+        transition: .3s linear all;
+        font-family: getFont(fresca);
+        font-weight: bold;
+
+        @include desktop {
+            grid-row-start: 2;
+            grid-row-end: 2;
+            justify-self: center;
+        }
+    }
+
+    button:hover {
+        box-shadow: 0 0 10px 1px white;
+        color: white;
+    }
+
+    .offers-div-1,
+    .offers-div-2,
+    .offers-div-3,
+    .offers-div-4 {
+        opacity: 0;
+        transition: .3s linear;
+        padding: 1em;
+        height: 100%;
+
+
+        @include desktop {
+            grid-row-start: 3;
+            grid-row-end: 3;
+            justify-self: center;
+            align-self: start;
+            position: relative;
+
+        }
+
+        .offers-div-1 {
+            @include desktop {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+
+        ;
+
+        .offers-div-2 {
+            @include desktop {
+                grid-column-start: 2;
+                grid-column-end: 2;
+
+            }
+        }
+
+        ;
+
+        .offers-div-3 {
+            @include desktop {
+                grid-column-start: 3;
+                grid-column-end: 3;
+
+            }
+        }
+
+        ;
+
+
+        img {
+            width: 30vw;
+            height: 20vw;
+            border-radius: 20px;
+
+            @include desktop {
+                width: 15vw;
+                height: 10vw;
+            }
+        }
+
+        p {
+            margin: 1em auto 2em auto;
+            text-align: center;
+            letter-spacing: 1px;
+
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 1em;
+            color: white;
+            background-color: rgba(0, 94, 255, 0.612);
+            padding: .5em .7em;
+            border-radius: 20px;
+            box-shadow: 0 0 10px 1px white;
+            transition: all .3s linear;
+            font-family: getFont(fresca);
+            font-weight: bold;
+
+            @include desktop {
+                position: absolute;
+                left: 50%;
+                bottom: 25%;
+                transform: translateX(-50%)
+            }
+
+
+
+        }
+
+        a:hover {
+            box-shadow: 0 0 10px 1px black;
+            color: black;
+        }
+    }
+
+    .offers-div-off {
+        display: none;
+        opacity: 0;
+
+        @include desktop {
+            display: block;
+        }
+
+    }
+
+    .offers-div-on {
+        opacity: 1;
+    }
+
+
+
+}

@@ -1,0 +1,142 @@
+.footer-div-wrapper {
+    margin-top: 10vh;
+    transform: scale(0);
+    transition: .3s linear;
+    position: relative;
+}
+
+.footer-div-wrapper-on {
+    transform: scale(1)
+}
+
+.footer-div-wrapper h4 {
+    font-family: Oswald;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    padding: 20px;
+
+
+}
+
+
+
+.footer-div-wrapper span {
+    margin: 20px;
+}
+
+.footer-div-wrapper img {
+    width: 4em;
+    height: 4em;
+}
+
+.footer-span-usa img {
+    transform: translateY(30%);
+}
+
+.footer-span-poland img {
+    transform: translateY(30%);
+}
+
+.footer-span-transfer img {
+    width: 2em;
+    height: 2em;
+    transform: rotate(45deg)translate(-50%, -50%)
+}
+
+
+.footer-p-description,
+.footer-p-description2 {
+    font-family: Oswald;
+    font-size: .9em;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin: 4em auto;
+}
+
+
+.footer-div-wrapper a {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: royalblue;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: Oswald;
+    transition: .2s linear;
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
+    transition: .3s linear;
+    z-index: 2;
+
+}
+
+.footer-div-wrapper a::before {
+    content: '';
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 1;
+    transition: .2s linear;
+    border-radius: 20px;
+    z-index: -1;
+
+
+
+
+}
+
+
+.footer-div-wrapper a:hover::before {
+    transform: translate3d(-10px, 10px, -10px);
+}
+
+
+
+@media (orientation:Portrait) and (min-width:768px) {
+
+    .footer-p-description,
+    .footer-p-description2 {
+        width: 60%;
+    }
+
+}
+
+@media (orientation:landscape) and (min-width:700px) {
+
+    .footer-p-description,
+    .footer-p-description2 {
+        width: 60%;
+    }
+
+}
+
+@media (orientation:landscape) and (min-width:1024px) {
+
+    .footer-div-wrapper {
+        transform: scale(1);
+    }
+
+
+}
+
+
+
+@media (orientation:landscape) and (min-width:1600px) {
+
+    .footer-p-description,
+    .footer-p-description2 {
+        width: 50%;
+    }
+}

@@ -1,0 +1,54 @@
+.gallery-products-div-wrapper h3 {
+    margin: 1em auto 1em auto;
+    padding: 5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1em;
+
+
+}
+
+.ul-gallery-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+
+}
+
+.ul-gallery-products li {
+    margin: 2vh;
+    list-style: none;
+}
+
+.ul-gallery-products img {
+    width: 50%;
+    transition: all .3s linear;
+
+}
+
+
+@media (orientation:landscape) and (min-width:500px) {
+    .gallery-products-div-wrapper h3 {
+        margin: 1em auto 0.5em auto;
+        font-size: 1.5em;
+    }
+
+    .ul-gallery-products {
+        flex-direction: row;
+        height: 40vh;
+
+    }
+
+    .ul-gallery-products img {
+        width: 60%;
+
+    }
+}
+
+
+a:hover img {
+    transform: scale(1.1);
+}

@@ -1,0 +1,153 @@
+.header-baner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url('../images/headerMobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+@media (orientation:landscape) and (min-width:567px) {
+    .header-baner {
+        background-image: url('../images/headerDesktop.jpg');
+    }
+
+}
+
+.scroll-down {
+    position: absolute;
+    width: 50%;
+    top: 70%;
+    left: 25%;
+    z-index: 10;
+    border: 2px solid white;
+}
+
+
+.h1-header-baner {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0);
+    font-size: 2em;
+    letter-spacing: 1px;
+    z-index: 1;
+    font-weight: bold;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Indie Flower';
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    border-radius: 10px;
+    padding: 2% 5%;
+    text-shadow: 0 0 10px rgb(161, 208, 61);
+    box-shadow: 0 0 5px 5px white;
+    animation: growUp .7s linear 1 normal forwards;
+    text-transform: uppercase;
+
+}
+
+
+
+
+.h1-header-baner-span {
+    display: block;
+    font-size: .5em;
+}
+
+@media (orientation:landscape) and (min-width:567px) {
+    .h1-header-baner {
+        width: 50%;
+        padding: 2% 5%;
+
+    }
+
+}
+
+.opacityOn {
+    opacity: 1;
+
+}
+
+
+.opacityOff {
+    opacity: 0;
+}
+
+
+@keyframes neon {
+
+    0% {
+        opacity: 1
+    }
+
+    10% {
+        opacity: 1
+    }
+
+    15% {
+        opacity: 0
+    }
+
+    25% {
+        opacity: 0
+    }
+
+    30% {
+        opacity: 1
+    }
+
+    40% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    75% {
+        opacity: 0
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes growUp {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%)scale(0);
+    }
+
+
+
+    100% {
+        opacity: (1);
+        transform: translate(-50%, -50%)scale(1);
+    }
+}
+
+
+
+@media (orientation:landscape) and (min-width:1024px) {
+    .h1-header-baner {
+        font-size: 3em;
+        letter-spacing: 1px;
+    }
+
+
+    .h1-header-baner-span {
+        font-size: .6em;
+    }
+
+}

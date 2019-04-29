@@ -1,0 +1,126 @@
+.home-page-wrapper {
+    width: 100%;
+    min-height: 100%;
+    padding: 5% 5% 10% 5%;
+}
+
+.searching,
+.shipping,
+.repair,
+.experience {
+    width: 95%;
+    height: 33.33%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10%;
+    margin: 5% auto;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    transform: translateX(200%);
+    transition: .2s linear;
+    font-size: 1em;
+
+}
+
+.shipping,
+.experience {
+    transform: translateX(-200%);
+}
+
+
+.scrollActive {
+    transform: translateX(0)
+}
+
+
+.home-page-h3-span {
+    margin-right: 3%;
+    color: yellowgreen;
+}
+
+
+
+@media (orientation:portrait) and (min-width:768px) {
+
+    .searching,
+    .shipping,
+    .repair,
+    .experience {
+        width: 70%;
+
+
+
+    }
+}
+
+@media (orientation:landscape) and (min-width:565px) {
+
+    .home-page-wrapper {
+        padding: 2% 5%;
+    }
+
+    .searching,
+    .shipping,
+    .repair,
+    .experience {
+        width: 80%;
+        padding: 5%;
+        margin: 0 auto 5% auto;
+
+
+    }
+}
+
+@media (orientation:landscape) and (min-width:900px) {
+
+    .home-page-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        opacity: 1;
+    }
+
+    .searching,
+    .shipping,
+    .repair,
+    .experience {
+        width: 45%;
+        height: 15em;
+        transform: translate(0, 0);
+
+    }
+
+    .searching,
+    .repair {
+        transform: translate(50%, 0);
+        opacity: 0;
+    }
+
+    .shipping,
+    .experience {
+        transform: translate(-50%, 0);
+        opacity: 0;
+    }
+
+
+    .desktop-scroll-active {
+        transform: translate(0, 0);
+        opacity: 1
+    }
+
+
+}
+
+@media (orientation:landscape) and (min-width:1600px) {
+
+    .searching,
+    .shipping,
+    .repair,
+    .experience {
+        width: 40%;
+    }
+}
