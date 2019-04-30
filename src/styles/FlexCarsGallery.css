@@ -68,6 +68,17 @@ figure {
     }
 }
 
+@media(orientation:landscape) and (min-width:1500px) {
+    figure {
+        width: 12vw;
+        height: 7vw;
+    }
+
+    .col-md-4 {
+        margin: 1%;
+    }
+}
+
 figure :hover {
     cursor: pointer;
     transition: .3s linear all;
