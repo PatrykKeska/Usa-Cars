@@ -48,9 +48,9 @@ import FusionRed4 from '../images/Gallery/Ford/FusionRed4.JPG';
 
 
 import EscapeBlackSmall1 from '../images/Gallery/Ford/Small/EscapeBlackSmall1.JPG';
-import EscapeBlackSmall2 from '../images/Gallery/Ford/Small/EscapeBlackSmall1.JPG';
-import EscapeBlackSmall3 from '../images/Gallery/Ford/Small/EscapeBlackSmall1.JPG';
-import EscapeBlackSmall4 from '../images/Gallery/Ford/Small/EscapeBlackSmall1.JPG';
+import EscapeBlackSmall2 from '../images/Gallery/Ford/Small/EscapeBlackSmall2.JPG';
+import EscapeBlackSmall3 from '../images/Gallery/Ford/Small/EscapeBlackSmall3.JPG';
+import EscapeBlackSmall4 from '../images/Gallery/Ford/Small/EscapeBlackSmall4.JPG';
 import EscapeLightGraySmall1 from '../images/Gallery/Ford/Small/EscapeLightGraySmall1.JPG';
 import EscapeLightGraySmall2 from '../images/Gallery/Ford/Small/EscapeLightGraySmall2.JPG';
 import EscapeLightGraySmall3 from '../images/Gallery/Ford/Small/EscapeLightGraySmall3.JPG';
