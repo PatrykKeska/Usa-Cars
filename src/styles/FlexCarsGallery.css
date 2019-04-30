@@ -70,12 +70,11 @@ figure {
 
 figure :hover {
     cursor: pointer;
-    box-shadow: 0 0 2px 2px white;
     transition: .3s linear all;
+
 
 }
 
 figure:hover img {
-    transform: scale(1.1)translate3d(2ch, 0.2in, 2em);
-
+    transform: scale(1.1);
 }
