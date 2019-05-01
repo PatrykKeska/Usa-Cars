@@ -56,29 +56,29 @@ const Offers = () => {
             <button onClick={hanldeClick} className="offers-btn1">bmw x3</button>
             <div className="offers-div-1 offers-div-off ">
                 <img src={img1Src} alt="car" />
-                <p className="description">BMW X3 F25 Z ROKU 2017 Przebieg to 16 tys kilometrów ,silnik 2.0 benzyna 245 km, automat 4x4 xdrive...</p>
+                <p className="description">BMW X3 F25 Z ROKU 2017 Przebieg to 16 tyś kilometrów, silnik 2.0 benzyna 245 km, automat 4x4 xdrive...</p>
                 <a href="https://www.otomoto.pl/oferta/bmw-x3-2-0-benzyna-250-km-4x4-xdrive-ID6BOP67.html">Sprawdź aukcję</a>
             </div>
 
             <button onClick={hanldeClick} className="offers-btn2">Volkswagen Jetta</button>
             <div className="offers-div-2 offers-div-off ">
                 <img src={img2Src} alt="car" />
-                <p className="description">VW JETTA 2.0 BENZYNA -211 KM Pełna wersja wyposarzenia ,skrzynaia biegów DSG ,koła 18-cali.Przebieg to zaledwie 18 tys kilometrów... </p>
+                <p className="description">VW JETTA 2.0 BENZYNA-211 KM Pełna wersja wyposażenia, skrzynia biegów DSG, koła 18-cali. Przebieg to zaledwie 18 tys kilometrów... </p>
                 <a href="https://www.otomoto.pl/oferta/volkswagen-jetta-wersja-sport-gli-2-0-benzyna-pelne-wyposarzenie-ID6AOcbt.html">Sprawdź aukcję</a>
             </div>
 
             <button onClick={hanldeClick} className="offers-btn3">Ford Escape-Granatowy</button>
             <div className="offers-div-3 offers-div-off ">
                 <img src={img3Src} alt="car" />
-                <p className="description"> FORD Escape europejska kuga.Silnik 1,6 BENZYNA ECOBOOST 181 KM-bardzo oszczędny i dynamiczny - napęd 4X4.Najlepsza wersja TITANIUM...</p>
+                <p className="description"> FORD Escape europejska kuga. Silnik 1,6 BENZYNA ECOBOOST 181 KM-bardzo oszczędny i dynamiczny,  napęd 4X4. Najlepsza wersja TITANIUM...</p>
                 <a href="https://www.otomoto.pl/oferta/ford-kuga-escape-1-6-ecoboost-wersja-titanium-4x4-ID6AiRVW.html">Sprawdź aukcję</a>
             </div>
 
 
-            <button onClick={hanldeClick} className="offers-btn4">Ford Escape-Bordow</button>
+            <button onClick={hanldeClick} className="offers-btn4">Ford Escape-Bordowy</button>
             <div className="offers-div-4 offers-div-off ">
                 <img src={img4Src} alt="car" />
-                <p className="description">Ford Escape 2017 rok,Najnowszy model - 2.0 Benzyna ECOBOOST 250 KM ,skrzynia biegów AUTOMAT ,Samochod w najlepszej wersji Titanium</p>
+                <p className="description">Ford Escape 2017 rok. Najnowszy model - 2.0 Benzyna ECOBOOST 250 KM ,skrzynia biegów AUTOMAT, Samochód w najlepszej wersji Titanium</p>
                 <a href="https://www.otomoto.pl/oferta/ford-kuga-escape-2-0-benzyna-wersja-titanium-ID6BRlDH.html">Sprawdź aukcję</a>
             </div>
         </section>

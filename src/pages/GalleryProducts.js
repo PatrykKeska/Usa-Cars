@@ -64,7 +64,7 @@ const GalleryProducts = () => {
 
     return (
         <div className="gallery-products-div-wrapper">
-            <h3>Zapraszamy do objrzenia Galerii</h3>
+            <h3>Zapraszamy do obejrzenia Galerii</h3>
             <ul className='ul-gallery-products'>
                 {List}
             </ul>
