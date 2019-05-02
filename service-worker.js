@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Usa-Cars/precache-manifest.104c6e1f3fd1d9435f770f92eeb89c41.js"
+  "/Usa-Cars/precache-manifest.23f6d17abf5d57a547dec1a3118b04a8.js"
 );
 
 workbox.clientsClaim();
