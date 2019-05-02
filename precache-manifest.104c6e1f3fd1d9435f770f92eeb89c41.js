@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Usa-Cars/static/media/JettaBlack4.9898da0e.JPG"
   },
   {
-    "revision": "b98db75d9691c1b8afe7",
+    "revision": "50466580869767d05993",
     "url": "/Usa-Cars/static/css/main.c89cf78b.chunk.css"
   },
   {
@@ -444,8 +444,8 @@ self.__precacheManifest = [
     "url": "/Usa-Cars/static/media/JettaBlack3.64f9b9cb.JPG"
   },
   {
-    "revision": "b98db75d9691c1b8afe7",
-    "url": "/Usa-Cars/static/js/main.b98db75d.chunk.js"
+    "revision": "50466580869767d05993",
+    "url": "/Usa-Cars/static/js/main.50466580.chunk.js"
   },
   {
     "revision": "1ee34e9213b42fcf8326854efb9d1faf",
@@ -884,7 +884,7 @@ self.__precacheManifest = [
     "url": "/Usa-Cars/static/media/headerDesktop.357b34e3.jpg"
   },
   {
-    "revision": "a92ca4670665d020aefe62c80b985064",
+    "revision": "cdf840ede793112719d943d88deed7c5",
     "url": "/Usa-Cars/index.html"
   }
 ];
