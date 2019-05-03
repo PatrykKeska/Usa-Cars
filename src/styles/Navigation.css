@@ -136,6 +136,7 @@ nav {
 @media (orientation:landscape)and (min-width:1024px) {
 
 
+
     nav {
         border-radius: 20px;
         height: 100%;
@@ -183,7 +184,9 @@ nav {
 
     .nav-div-wrapper a:hover {
         opacity: 1;
-        transform: translate(0, 0)
+        transform: translate(0, 0)scale(1.1);
+        box-shadow: 0 0 2px 2px royalblue;
+        transition: .2s linear;
     }
 
     .li-font-awesome-span {
