@@ -15,7 +15,7 @@ class App extends Component {
 
     return (
       <HashRouter>
-        <Router basename="/#">
+        <Router basename="Usa-Cars/#/">
           <div className="main-div-app">
             <header className="main-app-header">
               <Header />
