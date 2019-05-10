@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Usa-Cars/static/media/CC4.4b7793f1.JPG"
   },
   {
-    "revision": "7bd479f600358371156e",
+    "revision": "e952f502127ca69210b5",
     "url": "/Usa-Cars/static/css/main.399d878b.chunk.css"
   },
   {
@@ -460,8 +460,8 @@ self.__precacheManifest = [
     "url": "/Usa-Cars/static/media/CC3.9837f1de.JPG"
   },
   {
-    "revision": "7bd479f600358371156e",
-    "url": "/Usa-Cars/static/js/main.7bd479f6.chunk.js"
+    "revision": "e952f502127ca69210b5",
+    "url": "/Usa-Cars/static/js/main.e952f502.chunk.js"
   },
   {
     "revision": "210281930ea027bdeddd9ce0ea00eaff",
@@ -916,7 +916,7 @@ self.__precacheManifest = [
     "url": "/Usa-Cars/static/media/headerDesktop.357b34e3.jpg"
   },
   {
-    "revision": "8d3d8bea678032bc996e8fb935c7da49",
+    "revision": "5348eb2a21d5328240efc1805722f21d",
     "url": "/Usa-Cars/index.html"
   }
 ];
