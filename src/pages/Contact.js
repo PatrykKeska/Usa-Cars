@@ -19,7 +19,7 @@ const Contact = () => {
 
 
             <h3 className="contact-h3-write-us">Napisz do nas</h3>
-            <form action="https://formspree.io/Kendziior4@gmail.com" method="POST">
+            <form action="https://formspree.io/kris_flo@op.pl" method="POST">
                 <input placeholder="Podaj Imię" type="text" name="name" />
                 <input placeholder="Podaj E-mail" type="email" name="_replyto" />
                 <textarea name="message" placeholder="Twoja Wiadomość..."></textarea>

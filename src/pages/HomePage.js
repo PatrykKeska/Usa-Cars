@@ -43,40 +43,25 @@ class HomePage extends Component {
                     if (scrollValue > $PageFromTop) {
                         $divShipping.addClass('scrollActive')
                     }
-                    // else {
-                    //     $divShipping.removeClass('scrollActive')
+            $divShipping.removeClass('scrollActive')
 
                 }
                 if (scrollValue > $divSearchingFromTop - $divSearchingHeight) {
                     $divShipping.addClass('scrollActive')
                 }
-                // else {
-                //     $divShipping.removeClass('scrollActive')
-                // }
-
+    
                 if (scrollValue > $divShippingFromTop - $divShippingHeight) {
                     $divRepair.addClass('scrollActive')
                 }
-                // else {
-                //     $divRepair.removeClass('scrollActive')
-                // }
+          
                 if (scrollValue > $divRepairFromTop - $divRepairHeight) {
                     $divExperience.addClass('scrollActive')
                 }
-                // else {
-                //     $divExperience.removeClass('scrollActive')
-                // }
-                // } else if (scrollValue > 100) {
-                //     $divSearching.removeClass('scrollActive')
-                // }
+         
                 if (scrollValue > $divExperienceFromTop - $divExperienceHeight) {
                     $Footer.addClass('footer-div-wrapper-on')
                 }
-                //  else {
-                //     $Footer.removeClass('footer-div-wrapper-on');
-
-
-                // }
+       
 
             } else if (window.innerWidth >= 900) {
                 if (scrollValue > $PageFromTop / 1.5) {
@@ -85,11 +70,7 @@ class HomePage extends Component {
                     $divShipping.removeClass('scrollActive');
                     $divShipping.addClass('desktop-scroll-active');
                 }
-                //  else {
-                //     $divSearching.removeClass('desktop-scroll-active');
-                //     $divShipping.removeClass('desktop-scroll-active');
-                // }
-
+    
 
 
                 if (scrollValue > $divShippingFromTop - $divShippingHeight * 1) {
@@ -99,10 +80,7 @@ class HomePage extends Component {
                     $divExperience.addClass('desktop-scroll-active');
 
                 }
-                // else {
-                //     $divRepair.removeClass('desktop-scroll-active');
-                //     $divExperience.removeClass('desktop-scroll-active')
-                // }
+          
 
             }
 

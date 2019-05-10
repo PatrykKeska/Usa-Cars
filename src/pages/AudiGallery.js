@@ -18,6 +18,10 @@ import Audi8 from '../images/Gallery/Audi/AudiWHite8.JPG';
 import Audi9 from '../images/Gallery/Audi/AudiWHite9.JPG';
 import Audi10 from '../images/Gallery/Audi/AudiWHite10.JPG';
 import Audi11 from '../images/Gallery/Audi/AudiWHite11.JPG';
+import Audi12 from '../images/Gallery/Audi/b9Audi1.jpg';
+import Audi13 from '../images/Gallery/Audi/b9Audi2.jpg';
+import Audi14 from '../images/Gallery/Audi/b9Audi3.jpg';
+import Audi15 from '../images/Gallery/Audi/b9Audi4.jpg';
 
 import AudiSmall1 from '../images/Gallery/Audi/Small/AudiWHiteSmall1.JPG';
 import AudiSmall2 from '../images/Gallery/Audi/Small/AudiWHiteSmall2.JPG';
@@ -30,6 +34,10 @@ import AudiSmall8 from '../images/Gallery/Audi/Small/AudiWHiteSmall8.JPG';
 import AudiSmall9 from '../images/Gallery/Audi/Small/AudiWHiteSmall9.JPG';
 import AudiSmall10 from '../images/Gallery/Audi/Small/AudiWHiteSmall10.JPG';
 import AudiSmall11 from '../images/Gallery/Audi/Small/AudiWHiteSmall11.JPG';
+import AudiSmall12 from '../images/Gallery/Audi/Small/b9AudiSmall1.jpg';
+import AudiSmall13 from '../images/Gallery/Audi/Small/b9AudiSmall2.jpg';
+import AudiSmall14 from '../images/Gallery/Audi/Small/b9AudiSmall3.jpg';
+import AudiSmall15 from '../images/Gallery/Audi/Small/b9AudiSmall4.jpg';
 
 
 class AudiGallery extends React.Component {
@@ -37,10 +45,10 @@ class AudiGallery extends React.Component {
         photoIndex: 0,
         isOpen: false,
         images: [
-            Audi1, Audi2, Audi3, Audi4, Audi5, Audi6, Audi7, Audi8, Audi9, Audi10, Audi11,
+            Audi1, Audi2, Audi3, Audi4, Audi5, Audi6, Audi7, Audi8, Audi9, Audi10, Audi11,Audi12,Audi13,Audi14,Audi15,
         ],
         smallImages: [
-            AudiSmall1, AudiSmall2, AudiSmall3, AudiSmall4, AudiSmall5, AudiSmall6, AudiSmall7, AudiSmall8, AudiSmall9, AudiSmall10, AudiSmall11,
+            AudiSmall1, AudiSmall2, AudiSmall3, AudiSmall4, AudiSmall5, AudiSmall6, AudiSmall7, AudiSmall8, AudiSmall9, AudiSmall10, AudiSmall11,AudiSmall12,AudiSmall13,AudiSmall14,AudiSmall15,
         ]
     }
 

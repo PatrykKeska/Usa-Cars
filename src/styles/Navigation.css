@@ -12,12 +12,15 @@ nav {
     right: -7px;
     top: 10px;
     z-index: 10;
-    color: rgb(143, 220, 20);
+    color: rgb(32, 252, 32);
     transition: all .3s linear;
     opacity: 0;
     font-size: 30px;
-    transform: translateX(120%);
+    transform: translateX(120%)scaleX(1.1)scaleY(1.1);
+    animation: shining infinite .3s
 }
+
+
 
 
 
@@ -135,7 +138,9 @@ nav {
 
 @media (orientation:landscape)and (min-width:1024px) {
 
-
+    .menuOn {
+        transform: translateX(-50%)
+    }
 
     nav {
         border-radius: 20px;

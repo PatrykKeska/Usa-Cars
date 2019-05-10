@@ -48,7 +48,6 @@ const handleClick = () => {
         nav.classList.toggle('menuOn');
         bars.classList.toggle('opacityOn');
         times.classList.toggle('opacityOn');
-
     }
 }
 
@@ -66,6 +65,8 @@ const hanldeScroll = (e) => {
     }
 
 }
+
+
 
 
 

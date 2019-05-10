@@ -70,8 +70,8 @@ figure {
 
 @media(orientation:landscape) and (min-width:1500px) {
     figure {
-        width: 12vw;
-        height: 7vw;
+        width: 11vw;
+        height: 6vw;
     }
 
     .col-md-4 {

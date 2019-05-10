@@ -158,3 +158,69 @@ textarea {
 
 
 }
+
+@media (orientation:landscape) and (min-width:1500px) {
+    .contact-div-wrapper {
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: 20% auto;
+    }
+
+    .contact-div-wrapper a {
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-div-wrapper form {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        align-content: center;
+        width: 80%;
+    }
+
+    .contact-h3-write-us {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    ;
+
+    .contact-h3-call-us {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    ;
+
+    .contact-h3-find-us {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+
+    .contact-a-call-us {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .contact-a-find-us {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+
+
+}

@@ -13,10 +13,9 @@ class App extends Component {
 
   render() {
 
-
     return (
       <HashRouter>
-        <Router basename="/Usa-Cars/#/">
+        <Router basename="/#">
           <div className="main-div-app">
             <header className="main-app-header">
               <Header />
@@ -30,7 +29,6 @@ class App extends Component {
               </section>
             </main>
             <footer>
-              {/* <Footer /> */}
             </footer>
 
           </div>
